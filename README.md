@@ -1,12 +1,22 @@
-# _{Application Name}_
+# _Beep Boop Robotifier_
 
 #### _{Brief description of application}, {Date of current version}_
 
-#### By _**{List of contributors}**_
+#### By _**Lisa Jensen**_
 
 ## Description
 
 _{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+
+### Specs
+| Spec | Input | Output |
+| :-------------     | :------------- | :------------- |
+| **Homepage** | User accesses localhost:5004 | Homepage with user input form |
+| **Program Gathers User Input** | User input: "54" | Output: "54" |
+| **Program Returns a Range of Numbers starting at 0 up to the number inputted by the user**| User Input: "5" | Output: "0, 1, 2, 3, 4, 5" |
+| **Program **| Input: "p#an^t@s  /p(ant%s" | Output: "pantspants" |
+| **Program ** | Input: "pants" | Output: "3 1 1 1 1" |
+| **Program **| Input: "3 1 1 1 1" | Page Displays: 7 |
 
 ## Setup/Installation Requirements
 

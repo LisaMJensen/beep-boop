@@ -16,5 +16,12 @@ $(document).ready(function() {
   var boop = "Boop!"
   var sorryDave ="I'm sorry, Dave. I'm afraid I can't do that."
 
+  var numArray = [];
+
+  for (var i = 0; i <= userNum; i++) {
+    numArray.push(i);
+  }
+  alert(numArray);
+
 });
 });

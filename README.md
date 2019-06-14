@@ -14,7 +14,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 | **Homepage** | User accesses localhost:5004 | Homepage with user input form |
 | **Program Gathers User Input** | User input: "54" | Output: "54" |
 | **Program Returns a Range of Numbers starting at 0 up to the number inputted by the user**| User Input: "5" | Output: "0, 1, 2, 3, 4, 5" |
-| **Program **| Input: "p#an^t@s  /p(ant%s" | Output: "pantspants" |
+| **Program replaces every number containing "1" with "Beep!"  **| Input: "1" | Output: "Beep!" |
 | **Program ** | Input: "pants" | Output: "3 1 1 1 1" |
 | **Program **| Input: "3 1 1 1 1" | Page Displays: 7 |
 

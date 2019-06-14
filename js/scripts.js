@@ -23,5 +23,9 @@ $(document).ready(function() {
   }
   alert(numArray);
 
+rangString = numArray.toString();
+alert(rangeString);
+
+
 });
 });

@@ -18,14 +18,23 @@ $(document).ready(function() {
 
   var numArray = [];
 
+  debugger;
   for (var i = 0; i <= userNum; i++) {
     numArray.push(i);
   }
-  alert(numArray);
 
-rangString = numArray.toString();
+  alert(numArray);
+var rangeString = numArray.toString();
 alert(rangeString);
 
+var digit1 = rangeString.includes(1);
+//var digit2 = rangeString.includes("2");
+//var digit3 = rangeString.includes("3");
 
+if (digit1) {
+  rangeString.replace(1,"beep");
+}
+//$("#result").text(numArray)
+alert(rangeString);
 });
 });
